@@ -78,11 +78,11 @@ void RemovePersonByName(list<Person>& people, const string& name) {
 int main() {
     list<Person> people;
     // Adding some people (just hardcoding them, now going through AddPerson)
-    AddPerson(people, "Alice", "Engineer", "R&D");
-    AddPerson(people, "Bob", "Manager", "Sales");
-    AddPerson(people, "Charlie", "Analyst", "Finance");
-    AddPerson(people, "Diana", "Designer", "Marketing");
-    AddPerson(people, "Ethan", "Technician", "Support");
+    AddPerson(people, "Samantha", "Analyst", "IT");
+    AddPerson(people, "Owen", "Engineer", "Mechanical");
+    AddPerson(people, "Dan", "Engineer", "Electrical");
+    AddPerson(people, "Anna", "Designer", "Marketing");
+    AddPerson(people, "Emma", "Technician", "Support");
     cout << "All People:" << endl;
     PrintAllPersons(people);
     cout << "\nSearching for 'Designer':" << endl;
