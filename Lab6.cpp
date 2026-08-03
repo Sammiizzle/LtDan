@@ -29,7 +29,7 @@ public:
     string Get_jobtitle() const { return jobTitle; }
     string Get_department() const { return department; }
 
-    // Print everything about the person
+    // Print everything abt the person
     void print_out() const {
         cout << "Name: " << name << endl;
         cout << "Job Title: " << jobTitle << endl;
@@ -38,7 +38,7 @@ public:
     }
 };
 
-// Print all people in the list
+// Print all ppl in the list
 void PrintAllPersons(const list<Person>& people) {
     for (const auto& p : people) {
         p.print_out();
@@ -65,7 +65,7 @@ void SearchPerson(const list<Person>& people, const string& key) {
     }
 }
 
-// Remove a person by name
+// Remove person by name
 void RemovePersonByName(list<Person>& people, const string& name) {
     for (auto it = people.begin(); it != people.end(); ++it) {
         if (it->Get_name() == name) {
