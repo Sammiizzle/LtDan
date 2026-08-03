@@ -6,6 +6,9 @@
 #include <list>
 using namespace std;
 
+// CITATION: Used cppreference.com to review std::list functions.
+// CITATION: Used cplusplus.com for iterator erase() examples.
+
 // Simple Person class
 class Person {
 private:
